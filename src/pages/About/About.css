@@ -1,0 +1,31 @@
+.aboutSection{
+    width: 51%;
+    margin: 2rem 0rem;
+    margin-left: 20%;
+    border-radius: 1px solid rgb(239, 240, 242);
+    padding: 1.5rem;
+    background-color: white;
+    line-height: 2;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.paragraphBlue{
+    color: rgb(91, 109, 200);
+    font-weight: 600;
+    /* padding-bottom: 0.5rem; */
+}
+.paragraphGris{
+    color: rgb(112, 135, 146);
+    padding-bottom: 1.5rem;
+}
+.paragrah{
+    font-weight: bold;
+    color: rgb(112, 135, 146);
+}
+.paragrah span{
+    font-weight: normal;
+}
+p{
+    font-size: 14px;
+}
