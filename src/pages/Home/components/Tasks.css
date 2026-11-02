@@ -1,0 +1,185 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
+.firstBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid rgb(246, 248, 252); */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+.firstBox p{
+    color: rgb(118, 128, 148);
+}
+.homeSection{
+    padding: 2rem 20%;
+}
+.firstTitle{
+    padding: 0.8rem 0rem;
+}
+
+
+.tasksSection{
+    margin: 2rem 20%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-top: 1.5rem;
+}
+.secondTasksSection{
+    margin: 2rem 20%;
+     border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-top: 1.5rem;
+}
+.tasksSection form{
+    display: grid;
+    grid-template-columns: 5.5fr 1.3fr 1fr;
+    gap: 10px;
+    align-items: end;
+    
+}
+input, select{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border: 1px solid rgb(227, 229, 234);
+    border-radius: 6px;
+    margin-top: 6px;
+}
+.addBtn{
+    border-radius: 6px;
+    color: white;
+    font-weight: 600px;
+    background-color: rgb(174, 189, 245);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.addBtn:hover{
+    background-color: rgb(68, 106, 229);
+}
+.youTaskContainer{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(243, 243, 245);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.editeBtn{
+    color: rgb(79, 99, 133);
+    font-weight: 600;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.deleteBtn{
+    color: rgb(225, 99, 114);
+    font-weight: 600;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+}
+.containertask{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+.titletsks{
+    padding-bottom: 6px;
+}
+.completedContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.containerFilter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filterBtn{
+    background-color:rgb(244, 246, 250);
+    border-radius: 6px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.filterBtn button{
+    border: none;
+    background-color: rgb(244, 246, 250);
+    color: rgb(84, 91, 98);
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 6px;
+}
+.filterBtn button:hover{
+    background-color: white;
+    color: rgb(96, 121, 196);
+}
+
+/* !----------Tablet--------------- */
+@media (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+/* !-----------Mobile------------- */
+@media (max-width: 600px) {
+    .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+
+}
+.firstBox{
+    flex-direction: column;
+    align-items: start;
+    padding: 10px ;
+}
+.firstBox p{
+    color: rgb(118, 128, 148);
+}
+.homeSection{
+    padding: 2rem 4%;
+}
+.tasksSection{
+    margin: 2rem 4%;
+    border-radius: 10px;
+
+}
+.secondTasksSection{
+    margin: 2rem 4%;
+}
+.tasksSection form{
+    grid-template-columns: 1fr;
+    
+}
+.youTaskContainer{
+    flex-direction: column;
+    align-items: start;
+}
+.containerBtn{
+    margin-top: 1rem;
+    margin-left: 1.6rem;
+}
+.titleTask{
+    /* padding-bottom: 0.5rem; */
+}
+
+}

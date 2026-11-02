@@ -7,7 +7,7 @@ function Header(){
         <header>
             <p className='logo'>Study<span>Planner</span></p>
             <nav>
-
+                <Link to="/">Home</Link>
                 <Link to="about">About</Link>
                 {/* <a href="">Home</a>
                 <a href="">About</a> */}

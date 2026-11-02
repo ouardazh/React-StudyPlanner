@@ -1,9 +1,11 @@
-import './Home.css';
+import './Home.css'
+import Tasks from './components/Tasks'
 
 function Home(){
     return(
-        <section>
-            
-        </section>
+        
+        <Tasks />
+      
     )
 }
+export default Home;

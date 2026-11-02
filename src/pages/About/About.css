@@ -29,3 +29,21 @@
 p{
     font-size: 14px;
 }
+
+/* !----------Tablet--------------- */
+@media (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+/* !-----------Mobile------------- */
+@media (max-width: 600px) {
+   .aboutSection{
+    width: 85%;
+    margin: 1.5rem;
+}
+.titleAbout{
+    font-size: 26px;
+}
+
+
+}

@@ -3,7 +3,7 @@ function About(){
     return(
         <section className='aboutSection'>
             <p className='paragraphBlue'>ABOUT THIS PROJECT</p>
-            <h1>Learning React by building</h1>
+            <h1 className='titleAbout'>Learning React by building</h1>
             <p className='paragraphGris'>This beginner-to-intermediate exercice combines CRUD operations with
                 React effects and a small <br /> focus timer.
             </p>
